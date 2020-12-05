@@ -1,0 +1,26 @@
+{
+  "name": "livem3u8generator",
+  "version": "1.0.0",
+  "description": "Convert media files to live m3u8.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf -rf dist && tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Deepankar Sinha",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/fluent-ffmpeg": "^2.1.16",
+    "@types/node": "^14.14.10",
+    "jest": "^26.6.3",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
